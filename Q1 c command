@@ -1,0 +1,4 @@
+# save as query.sql
+USE compbiol
+SELECT a.function_1, a.metabolism, e.expr_value
+FROM annotation as a JOIN expression as e ON a.gene = e.gene
