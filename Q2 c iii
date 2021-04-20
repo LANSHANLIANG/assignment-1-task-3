@@ -1,2 +1,2 @@
 SELECT m.LastName, m.FirstName, m.MemberID
-FROM (Member m join Entry e on m.MemberID=e.MemberIDand B Entry y and y.Year=2013)
+FROM (Member m join Entry e on m.MemberID=e.MemberIDand ∉ Entry y and y.Year=2013)
